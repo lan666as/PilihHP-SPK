@@ -54,7 +54,7 @@ const ResultsChart: React.FC<Props> = (props: Props) => {
 	const [localItems, setLocalItems] = useState<OptionAndCriteria[]>([]);
 	const [isInfoVisible, setIsInfoVisible] = useState(false);
 	const [startAnimation, setStartAnimation] = useState(true);
-	// const [itemsType, setItemsType] = useState('');
+	const [, setItemsType] = useState('');
 	const [areInstructionsVisible, setAreInstructionsVisible] = useState(false);
 	const [instructionsText, setInstructionsText] = useState<JSX.Element | null>(null);
 
